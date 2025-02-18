@@ -1,0 +1,463 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.checkout-page {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: "brush script mt", cursive;
+    font-size: 4em;
+}
+
+nav {
+    font-family: 'cure', cursive;
+    background-color: #ffffff;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 15px 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#checkout {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#checkout h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #333333;
+}
+
+.footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    color: #ffffff;
+    font-family: 'cure', cursive;
+    text-align: center;
+}
+ 
+.home-page {
+    background-image: url('https://png.pngtree.com/background/20230426/original/pngtree-an-image-of-a-clothing-store-picture-image_2490513.jpg');
+    background-color: #d3fff6;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.products-page {
+    background-image: url('https://www.tendencias.kpmg.es/wp-content/uploads/2018/11/GettyImages-912949110.jpg');
+    background-color: #d3fff6;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.cart-page {
+    background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/11/10/60057/shopping-07.jpg');
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ 
+header {
+    background-color: #000000;
+    color: #ffffffee;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration-color: #000000;
+    text-decoration: underline,line-through;
+}
+
+h1 {
+    margin: 0;
+    font-family: "brush script mt", cursive;
+    font-size: 4em;
+    text-decoration-color: #000000;
+    text-decoration: underline,line-through;
+}
+ 
+nav {
+    font-family: 'cure', cursive;
+    background-color: #ffffff;
+    margin: 10px 0;
+    text-align: center;
+    -webkit-text-fill-color: #000000ee;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 15px 15px;
+}
+
+nav ul {
+    list-style-type: disc;
+    padding: 10;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+ 
+.welcome-image {
+    color: #000000ee;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.welcome-image h2 {
+    margin: 0;
+    font-family: "brush script mt", cursive;
+    font-size: 4em;
+    color: #000000;
+    background-color: rgba(211, 211, 211,0.5); 
+    padding: 0px;
+    border-radius: 1px;
+}
+.welcome-image h2 .highlight {
+    color: #ffffff; 
+}
+.welcome-text{
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+.welcome-text h3 {
+    font-family: 'cure', cursive;
+    font-size: 3em;
+    margin: 10px 0;
+    color: #ffffff;
+}
+.welcome-text h3 a {
+    color: #000000;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255);
+    margin: 10px 10px;
+    animation: bounce 2s infinite;
+}
+.welcome-text p {
+    color: #ffffff;
+    font-family: 'cure', cursive;
+    padding: auto;
+}
+.welcome-msg {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.welcome-msg p {
+    color: #ffffff;
+    font-family: 'cure', cursive;
+    font-size: large;
+    line-gap-override: 1.5;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.items h2 {
+    font-family: 'cure', cursive;
+    color: #000000ee;
+}
+
+.product {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #0000ff; 
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    color: #000000;
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-family: 'cure', cursive;
+}
+
+.product p {
+    color: #000000;
+    font-family: 'brush script mt', cursive;
+}
+
+.product button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product .buy-btn {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.product .buy-btn:hover {
+    background-color: #cc0000;
+}
+
+.about {
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.about h2 {
+    font-family: 'cure', cursive;
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #000000; 
+}
+
+.about p {
+    color: #000000;
+    font-family: 'cure', cursive;
+}
+
+.us {
+    font-family: 'papyrus', cursive;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.us h2 {
+    font-family: 'cure', cursive;
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #000000;
+}
+
+
+.social {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    padding: 10px 0;
+    margin: 10px 0;
+    position: sticky;
+    bottom: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.social a {
+    color: #000000;
+    text-decoration: none;
+    margin: 10px 15px;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 10;
+    margin: 10;
+    display: flex;
+}
+
+.social li {
+    margin-right: 100px;
+}
+
+.social li a {
+    text-decoration: none;
+    color: #000000;
+}
+.social img {
+   align-items: center;
+}
+
+
+.cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.cart-items h2 {
+    font-family: 'cure', cursive;
+    color: #000000;
+    align-content: center;
+    text-align: center;
+}
+.footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.1px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    color: #ffffff;
+    font-family: 'cure', cursive;
+    text-align: center;
+}
+
+/* Style for the horizontal line */
+.section-divider {
+    border: 0;
+    height: 1px;
+    background: #000000;
+    margin: 40px 0;
+}

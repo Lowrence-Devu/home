@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Clothing Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="checkout-page">
+    <header>
+        <h1>Devu Brothers</h1></header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="1.html#products">Products</a></li>
+                <li><a href="1.html#aboutus">About Us</a></li>
+                <li><a href="1.html#contact">Contact</a></li>
+                <li><a href="cart.html">Cart</a><img src="th-6.jpeg" width="20px" height="20px"></li>
+            </ul>
+        </nav>
+     
+    <main>
+        <section id="checkout">
+            <h2>Checkout</h2>
+            <form id="checkout-form">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="state" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="zip">Zip Code:</label>
+                        <input type="text" id="zip" name="zip" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Card Details</legend>
+                    <div class="form-group">
+                        <label for="card">Credit Card:</label>
+                        <input type="radio" id="card" name="card" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="expiry">Expiry Date:</label>
+                        <input type="radio" id="expiry" name="expiry" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV:</label>
+                        <input type="radio" id="cvv" name="cvv" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend> Online Payment Options</legend>
+                    <div class="form-group">
+                        <input type="radio" id="phonepe" name="payment-method" value="phonepe" required>
+                        <label for="phonepe">PhonePe</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" id="googlepay" name="payment-method" value="googlepay" required>
+                        <label for="googlepay">Google Pay</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" id="paytm" name="payment-method" value="paytm" required>
+                        <label for="paytm">Paytm</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-group">
+                        <legend>Pay On Delivery</legend>
+                        <input type="radio" id="cod" name="payment-method" value="cod" required>
+                        <label for="cod">Cash on Delivery</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Shipping Options</legend>
+                    <div class="form-group">
+                        <input type="radio" id="standard" name="shipping-method" value="standard" required>
+                        <label for="standard">Standard Shipping</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="radio" id="express" name="shipping-method" value="express" required>
+                        <label for="express">Express Shipping</label>
+                    </div>
+                </fieldset>
+                
+                    
+                
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+    <hr class="section-divider">
+    <footer>
+        <div class="footer">
+            <p>&copy; 2025 Clothing Shop. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
